@@ -16,4 +16,4 @@ RUN gem install 'bundler:2.4.22' \
 
 WORKDIR /opt/app
 
-CMD ['/bin/sh']
+CMD ["/bin/sh"]
