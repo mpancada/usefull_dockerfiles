@@ -2,6 +2,12 @@
 
 # Used for WSL so I can quickly create a rails project and work in it
 
+# Instal docker on WSL
+# https://docs.docker.com/engine/install/ubuntu/
+# Change the firewall to legacy iptables
+# update-alternatives --config iptables
+# Only then you will be able to sudo docker run hello-world
+
 # TO BUILD a new image
 # sudo docker build -t rails_app:7.1.2 -f rails_app_creator.Dockerfile .
 
