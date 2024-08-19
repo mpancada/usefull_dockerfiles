@@ -42,6 +42,9 @@
         ##OR##
             # sudo docker compose -f dev.docker-compose.yml exec rails_app rails db:migrate
 
+        # Create alias to write less...
+            # alias _dc='sudo docker compose -f dev.docker-compose.yml'
+            # alias _dcrails='sudo docker compose -f dev.docker-compose.yml exec rails_app rails'
         #Filename: dev.docker-compose.yml
 
         #volumes:
